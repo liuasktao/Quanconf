@@ -136,7 +136,7 @@ https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/m
 # rewrite 复写远程订阅
 https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=重定向, update-interval=86400, opt-parser=false, enabled=true
 https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告, update-interval=86400, opt-parser=false, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf， tag=去广告+, update-interval=86400, opt-parser=false, enabled=true
+https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf，tag=去广告+, update-interval=86400, opt-parser=false, enabled=true
 https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=true
 
 [rewrite_local]
