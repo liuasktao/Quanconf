@@ -1,0 +1,411 @@
+# https://gitee.com/liuasktao/Quanconf/raw/master/set/clashtun.txt
+port: 7890
+socks-port: 7891
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  # listen: :53 # TAP模式启用，TUN模式注释
+  nameserver:
+    - tls://dns.alidns.com:853
+    - tls://dot.pub:853
+    - tls://dns.adguard.com:853
+    - 114.114.114.114
+  fallback:
+    - tls://dns.alidns.com:853
+    - tls://dot.pub:853
+    - 8.8.8.8
+    - 185.222.222.222
+    - 114.114.114.114
+fallback-filter:
+    geoip: true
+    ipcidr:
+    - 240.0.0.0/4
+tun: # TAP模式将以下注释
+  enable: true
+  stack: gvisor
+  dns-hijack:
+    - 198.18.0.2:53
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+proxies:
+  - name: ss
+    type: ss
+    server: 172.245.79.4
+    port: 14545
+    cipher: chacha20-ietf
+    password: liu.1995
+  - name: ssr
+    server: 216.127.168.145
+    port: 20716
+    type: ssr
+    cipher: rc4-md5
+    password: cAj5Viu2
+    protocol: auth_chain_a
+    obfs: plain
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: trojan
+    type: trojan
+    server: tap.bwgrlp.fun
+    port: 443
+    password: ae662f4f
+    udp: true
+proxy-providers:
+  JJ:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fj.srl%2Flink%2FOSK1oMJAsxBmphot%3Fsub%3D1&emoji=true&list=true&new_name=true
+    path: ./RL/JJ.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  ALL:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1%7Chttps%3A%2F%2Fv2.vfuc.ml%2Flink%2FVGizslgdkDFLWz8j%3Fsub%3D3&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&emoji=true&list=true&udp=true
+    path: ./RL/ALL.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  TW:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&include=(2X.*TW)%7C%E5%8F%B0%E6%B9%BE%7C(AS1.*TW)&emoji=true&list=true&udp=true
+    path: ./RL/TW.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  SG:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&include=(1X.*SG)%7C(2X.*SG)%7C(%E6%96%B0%E5%8A%A0%E5%9D%A1.*1.)&emoji=true&list=true&udp=true
+    path: ./RL/SG.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  A1:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&include=(1X.*N)%7C(%3A1)%7C(AS2)&emoji=true&list=true&udp=true
+    path: ./RL/A1.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+  A2:
+    type: http
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&include=(2X)%7C(%3A3)%7C(%3A2)%7C(AS2)&emoji=true&list=true&udp=true
+    path: ./RL/A2.yaml
+    interval: 3600
+    health-check:
+      enable: false
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: JJ
+    type: select
+    use:
+      - JJ
+  - name: PROXY
+    type: select
+    proxies:
+      - ss
+      - ssr
+      - trojan
+    use:
+      - ALL
+  - name: 🕹黑白机
+    type: select
+    proxies:
+      - 🌍国外网站
+      - DIRECT
+  - name: 🌍国外网站
+    type: select
+    proxies:
+      - 🚈低倍速节点
+      - 🚄高倍速节点
+      - JJ
+      - PROXY
+      - DIRECT
+  - name: 🇨🇳国内网站
+    type: select
+    proxies:
+      - DIRECT
+      - PROXY
+      - 🚈低倍速节点
+      - 🚄高倍速节点
+  - name: 🎾爱奇艺TW
+    type: select
+    proxies:
+      - DIRECT
+      - 🇹🇼台湾节点
+  - name: 🎶抖音国际版
+    type: select
+    proxies:
+      - DIRECT
+      - 🇸🇬低速新加坡节点
+      - 📀国外媒体
+      - 🌍国外网站
+  - name: 📺奈飞视频
+    type: select
+    proxies:
+      - 🇸🇬低速新加坡节点
+      - 📀国外媒体
+      - 🌍国外网站
+      - PROXY
+      - DIRECT
+  - name: 🎬Youtube
+    type: select
+    proxies:
+      - 📀国外媒体
+      - 🌍国外网站
+      - DIRECT
+  - name: 🍎苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🌍国外网站
+  - name: 📞Telegram
+    type: select
+    proxies:
+      - 🌍国外网站
+      - DIRECT
+  - name: 💰Paypal
+    type: select
+    proxies:
+      - DIRECT
+      - 🌍国外网站
+  - name: 💻微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🌍国外网站
+  - name: 🚫AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🌍国外网站
+  - name: 📀国外媒体
+    type: select
+    proxies:
+      - 🌍国外网站
+      - PROXY
+      - DIRECT
+  - name: 💿国内媒体
+    type: select
+    proxies:
+      - 🇨🇳国内网站
+      - DIRECT
+      - PROXY
+  - name: ⭕白名单
+    type: select
+    proxies:
+      - 🌍国外网站
+      - DIRECT
+  - name: 💢黑名单
+    type: select
+    proxies:
+      - DIRECT
+      - 🌍国外网站
+  - name: ✈机场站点
+    type: select
+    proxies:
+      - DIRECT
+      - PROXY
+      - 🚄高倍速节点
+      - ss
+      - ssr
+      - trojan
+  - name: 🇹🇼台湾节点
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: "1800"
+    use:
+      - TW
+  - name: 🇸🇬低速新加坡节点
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: "1800"
+    use: 
+      - SG
+  - name: 🚈低倍速节点
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: "1800"
+    use:
+      - A1
+  - name: 🚄高倍速节点
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: "1800"
+    use:
+      - A2
+rule-providers:
+  AdBlock:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/AdBlock.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+  Unbreak:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Unbreak.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    interval: 86400
+  Airport:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Extra/Airport.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Airport.yaml
+    interval: 86400
+  Crosswall:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Extra/Crosswall.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Crosswall.yaml
+    interval: 86400
+  Unwall:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Extra/Unwall.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Unwall.yaml
+    interval: 86400
+  Youtube:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/Extra/Youtube.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/Extra/TikTok.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/TikTok.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/Extra/Netflix.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Extra/Telegram.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
+    interval: 86400
+  Paypal:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Extra/Paypal.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml
+    interval: 86400
+  Streaming:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+  StreamingSE:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/StreamingSE.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/StreamingSE.yaml
+    interval: 86400
+  StreamingCN:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/StreamingMedia/StreamingCN.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
+    interval: 86400
+  Global:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Global.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/Apple/Apple.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    path: ./RL/RuleSet/China.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    interval: 86400
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: ./RL/RuleSet/Extra/ChinaIP.yaml
+    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    interval: 86400
+rules:
+  - RULE-SET,AdBlock,🚫AdBlock
+  - RULE-SET,Unbreak,DIRECT
+  - RULE-SET,Airport,✈机场站点
+  - RULE-SET,Unwall,💢黑名单
+  - RULE-SET,Crosswall,⭕白名单
+  - RULE-SET,TikTok,🎶抖音国际版
+  - RULE-SET,Telegram,📞Telegram
+  - RULE-SET,Paypal,💰Paypal
+  - RULE-SET,Youtube,🎬Youtube
+  - RULE-SET,Netflix,📺奈飞视频
+  - DOMAIN-KEYWORD,onedrive,💻微软服务
+  - DOMAIN-SUFFIX,azure.com,💻微软服务
+  - DOMAIN-SUFFIX,fabric.io,💻微软服务
+  - DOMAIN-SUFFIX,files.1drv.com,💻微软服务
+  - DOMAIN-SUFFIX,hotmail.com,💻微软服务
+  - DOMAIN-SUFFIX,live.com,💻微软服务
+  - DOMAIN-SUFFIX,live.net,💻微软服务
+  - DOMAIN-SUFFIX,livefilestore.com,💻微软服务
+  - DOMAIN-SUFFIX,mesh.com,💻微软服务
+  - DOMAIN-SUFFIX,microsoft.com,💻微软服务
+  - DOMAIN-SUFFIX,microsoftonline.com,💻微软服务
+  - DOMAIN-SUFFIX,microsoft-tst.com,💻微软服务
+  - DOMAIN-SUFFIX,msn.com,💻微软服务
+  - DOMAIN-SUFFIX,office.com,💻微软服务
+  - DOMAIN-SUFFIX,office.net,💻微软服务
+  - DOMAIN-SUFFIX,onedrive.com,💻微软服务
+  - DOMAIN-SUFFIX,outlook.com,💻微软服务
+  - DOMAIN-SUFFIX,p.sfx.ms,💻微软服务
+  - DOMAIN-SUFFIX,s-microsoft.com,💻微软服务
+  - DOMAIN-SUFFIX,sharepoint.com,💻微软服务
+  - DOMAIN-SUFFIX,skype.com,💻微软服务
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,💻微软服务
+  - DOMAIN-SUFFIX,storage.msn.com,💻微软服务
+  - RULE-SET,Streaming,📀国外媒体
+  - RULE-SET,StreamingSE,🎾爱奇艺TW
+  - RULE-SET,StreamingCN,💿国内媒体
+  - RULE-SET,Global,🌍国外网站
+  - RULE-SET,Apple,🍎苹果服务
+  - RULE-SET,China,🇨🇳国内网站
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
+  - IP-CIDR,239.0.0.0/8,DIRECT
+  - IP-CIDR,255.0.0.0/8,DIRECT
+  - IP-CIDR,224.0.0.0/8,DIRECT
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
+  - IP-CIDR,198.18.0.0/16,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🕹黑白机
