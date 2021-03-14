@@ -228,7 +228,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Airport.yaml
-    url:https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Airport.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Airport.yaml
     interval: 86400
   Crosswall:
     type: http
