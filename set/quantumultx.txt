@@ -1,4 +1,5 @@
 ; https://gitee.com/liuasktao/Quanconf/raw/master/set/quantumultX.txt
+; https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanconf/main/set/quantumultx.txt
 
 [general]
 excluded_routes=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
