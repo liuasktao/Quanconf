@@ -1,4 +1,5 @@
 # https://gitee.com/liuasktao/Quanconf/raw/master/set/clashx.txt
+# https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanconf/main/set/clashx.txt
 port: 7890
 socks-port: 7891
 mixed-port: 7890
@@ -42,7 +43,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   ALL:
     type: http
-    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1%7Chttps%3A%2F%2Fv2.vfuc.ml%2Flink%2FVGizslgdkDFLWz8j%3Fsub%3D3&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&emoji=true&list=true&udp=true
+    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1
     path: ./RL/ALL.yaml
     interval: 3600
     health-check:
