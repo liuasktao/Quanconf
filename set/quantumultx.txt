@@ -80,7 +80,7 @@ https://j.srl/link/OSK1oMJAsxBmphot?sub=1#emoji=2&udp=1, tag=几鸡, update-inte
 https://sub.ssr.ac/link/DBERo5fsJpXaeOJO?mu=1#emoji=2&udp=1, tag=魅影极速, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/MAYING.png
 https://v4.re0x.cyou/link/QP6Zwji9RS1lFsIW?list=quantumultx#emoji=2&udp=1, tag=Re0x, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Re0x.png
 https://sub.rss-node.com/link/s7n6PhlyHFq4XYuh?mu=1#udp=1&emoji=2, tag=🐬海豚湾, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Hitunw.png
-http://v2.vfuc.ml/link/VGizslgdkDFLWz8j?sub=3#emoji=2, tag=VFU CLOUD, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/VMess.png
+http://v2.vfuc.ml/link/VGizslgdkDFLWz8j?sub=3#emoji=2, tag=VFU CLOUD, update-interval=86400, opt-parser=true, enabled=false, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/VMess.png
 
 [filter_remote]
 # 分流规则远程订阅
