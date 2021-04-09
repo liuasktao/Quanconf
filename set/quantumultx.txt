@@ -1,5 +1,5 @@
 ; https://gitee.com/liuasktao/Quanconf/raw/master/set/quantumultX.txt
-; https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanconf/main/set/quantumultx.txt
+; https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanconf/main/set/quantumultx.txt
 
 [general]
 excluded_routes=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -80,29 +80,28 @@ https://j.srl/link/OSK1oMJAsxBmphot?sub=1#emoji=2&udp=1, tag=几鸡, update-inte
 https://sub.ssr.ac/link/DBERo5fsJpXaeOJO?mu=1#emoji=2&udp=1, tag=魅影极速, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/MAYING.png
 https://v4.re0x.cyou/link/QP6Zwji9RS1lFsIW?list=quantumultx#emoji=2&udp=1, tag=Re0x, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Re0x.png
 https://sub.rss-node.com/link/s7n6PhlyHFq4XYuh?mu=1#udp=1&emoji=2, tag=🐬海豚湾, update-interval=86400, opt-parser=true, enabled=true, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Hitunw.png
-http://v2.vfuc.ml/link/VGizslgdkDFLWz8j?sub=3#emoji=2, tag=VFU CLOUD, update-interval=86400, opt-parser=true, enabled=false, img-url=https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/VMess.png
 
 [filter_remote]
 # 分流规则远程订阅
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Airport.list, tag=Airport（机场服务）, force-policy=✈️机场站点, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=AdBlock (广告拦截), force-policy=🚫AdBlock, update-interval=86400, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=Hijacking (运营商劫持), force-policy=🚫AdBlock, update-interval=86400, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Crosswall.list, tag=Crosswall（白名单）, force-policy=⭕️白名单, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Unwall.list, tag=Unwall（黑名单）, force-policy=💢黑名单, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/TikTok.list, tag=TikTok（抖音国际版）, force-policy=🎶抖音国际版, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/iQIYI.list, tag=iQIYI（爱奇艺TW）,force-policy=🎾爱奇艺TW, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingCN.list, tag=CMedia (大陆流媒体), force-policy=💿国内媒体, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix (网飞影视), force-policy=📺奈飞视频, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify (声田音乐), force-policy=🎵Spotify, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list, tag=YouTube (油管), force-policy=🎬YouTube, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=GMedia (境外流媒体), force-policy=📀国外媒体, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/Telegram.list, tag=Telegram (电报代理), force-policy=📞Telegram, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Microsoft.list, tag=Microsoft (微软服务), force-policy=💻微软服务, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/PayPal.list, tag=PayPal (国际版贝宝), force-policy=💰PayPal, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (网速测试), force-policy=⏱️Speedtest, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=Outside (境外网站), force-policy=🌍国外网站, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=Apple (苹果服务), force-policy=🍎苹果服务, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=Mainland (大陆网站), force-policy=🇨🇳国内网站, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Airport.list, tag=Airport（机场服务）, force-policy=✈️机场站点, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Advertising.list, tag=AdBlock (广告拦截), force-policy=🚫AdBlock, update-interval=86400, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=Hijacking (运营商劫持), force-policy=🚫AdBlock, update-interval=86400, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Crosswall.list, tag=Crosswall（白名单）, force-policy=⭕️白名单, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Unwall.list, tag=Unwall（黑名单）, force-policy=💢黑名单, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/TikTok.list, tag=TikTok（抖音国际版）, force-policy=🎶抖音国际版, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/iQIYI.list, tag=iQIYI（爱奇艺TW）,force-policy=🎾爱奇艺TW, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/StreamingCN.list, tag=CMedia (大陆流媒体), force-policy=💿国内媒体, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix (网飞影视), force-policy=📺奈飞视频, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify (声田音乐), force-policy=🎵Spotify, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list, tag=YouTube (油管), force-policy=🎬YouTube, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, tag=GMedia (境外流媒体), force-policy=📀国外媒体, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Telegram/Telegram.list, tag=Telegram (电报代理), force-policy=📞Telegram, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Microsoft.list, tag=Microsoft (微软服务), force-policy=💻微软服务, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/PayPal.list, tag=PayPal (国际版贝宝), force-policy=💰PayPal, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (网速测试), force-policy=⏱️Speedtest, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Global.list, tag=Outside (境外网站), force-policy=🌍国外网站, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/Apple.list, tag=Apple (苹果服务), force-policy=🍎苹果服务, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/China.list, tag=Mainland (大陆网站), force-policy=🇨🇳国内网站, enabled=true
 
 [filter_local]
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
@@ -134,12 +133,12 @@ final, 🕹黑白机
 
 [rewrite_remote]
 # TikTok解锁复写订阅
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Rewrite/TikTok/TikTokSG.list, tag=TikTok新加坡解锁, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Rewrite/TikTok/TikTokSG.list, tag=TikTok新加坡解锁, enabled=true
 # rewrite 复写远程订阅
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=重定向, update-interval=86400, opt-parser=false, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告, update-interval=86400, opt-parser=false, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告+, update-interval=86400, opt-parser=false, enabled=true
-https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=重定向, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告+, update-interval=86400, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=true
 
 [rewrite_local]
 # 本地复写规则
@@ -147,8 +146,8 @@ https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/m
 ^https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
 # 知乎网页直接看
 # 知乎直接看
-^https://www\.zhihu\.com/question/ url script-response-body https://sub.bwgrlp.fun/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
-^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://sub.bwgrlp.fun/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
+^https://www\.zhihu\.com/question/ url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
+^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
 # 知乎网页去广告&推荐列表
 https://www\.zhihu\.com/api/v4/questions/\d+/related-readings url reject-200
 https://www\.zhihu\.com/api/v4/answers/\d+/related-readings url reject-200
