@@ -1,4 +1,5 @@
 # https://gitee.com/liuasktao/Quanconf/raw/master/set/clashtun.txt
+# https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanconf/main/set/clashtun.txt
 port: 7890
 socks-port: 7891
 mixed-port: 7890
@@ -256,103 +257,103 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RL/RuleSet/AdBlock.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Guard/Advertising.yaml
     interval: 86400
   Unbreak:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Unbreak.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
     interval: 86400
   Airport:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Airport.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Airport.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Airport.yaml
     interval: 86400
   Crosswall:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Crosswall.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Crosswall.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Crosswall.yaml
     interval: 86400
   Unwall:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Unwall.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Unwall.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/Unwall.yaml
     interval: 86400
   Youtube:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/Extra/Youtube.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
     interval: 86400
   TikTok:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/Extra/TikTok.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/TikTok.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/TikTok.yaml
     interval: 86400
   Netflix:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/Extra/Netflix.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
     interval: 86400
   Telegram:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Telegram.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml
     interval: 86400
   Paypal:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Extra/Paypal.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml
     interval: 86400
   Streaming:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/Streaming.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
     interval: 86400
   StreamingSE:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/StreamingSE.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/StreamingSE.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Clash/StreamingSE.yaml
     interval: 86400
   StreamingCN:
     type: http
     behavior: classical
     path: ./RL/RuleSet/StreamingMedia/StreamingCN.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml
     interval: 86400
   Global:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Global.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
     interval: 86400
   Apple:
     type: http
     behavior: classical
     path: ./RL/RuleSet/Apple/Apple.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
     interval: 86400
   China:
     type: http
     behavior: classical
     path: ./RL/RuleSet/China.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
     interval: 86400
   ChinaIP:
     type: http
     behavior: ipcidr
     path: ./RL/RuleSet/Extra/ChinaIP.yaml
-    url: https://sub.bwgrlp.fun/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/ChinaIP.yaml
     interval: 86400
 rules:
   - RULE-SET,AdBlock,🚫AdBlock
