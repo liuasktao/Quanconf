@@ -139,21 +139,11 @@ https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/mast
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=去广告, update-interval=86400, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=去广告+, update-interval=86400, opt-parser=false, enabled=true
 https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=true
+# 知乎复写
+https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Rewrite/zhihu.list, tag=知乎复写, enabled=true
 
 [rewrite_local]
 # 本地复写规则
-# 知乎（部分替换为手机百度 Quark 的 User-Agent）
-^https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
-# 知乎网页直接看
-# 知乎直接看
-^https://www\.zhihu\.com/question/ url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
-^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
-# 知乎网页去广告&推荐列表
-https://www\.zhihu\.com/api/v4/questions/\d+/related-readings url reject-200
-https://www\.zhihu\.com/api/v4/answers/\d+/related-readings url reject-200
-https://www\.zhihu\.com/api/v4/hot_recommendation url reject-200
-https://www\.zhihu\.com/commercial_api/banners_v3/mobile_banner url reject-200
-https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 
 [task_local]
 #此处为自动执行的任务
@@ -162,4 +152,4 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 passphrase = B47B2C2D
 p12 = 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
 # 以下为证书&主机名部分
-hostname = zhuanlan.zhihu.com, www.zhihu.com
+hostname =
