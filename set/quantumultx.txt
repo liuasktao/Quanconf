@@ -39,6 +39,20 @@ server=/*.mi.com/119.29.29.29
 server=/*.xiaomi.com/119.29.29.29
 address=/mtalk.google.com/108.177.125.188
 
+[server_local]
+# 本地服务器部分
+# 自行添加即可
+shadowsocks=216.127.168.145:20716, method=rc4-md5, password=cAj5Viu2, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=true, tag=SSR
+shadowsocks=172.245.79.4:14545, method=chacha20-ietf, password=liu.1995, fast-open=false, udp-relay=true, tag=SS
+trojan=tap.bwgrlp.fun:443, password=ae662f4f, over-tls=true, tls-verification=true, fast-open=false, udp-relay=true, tag=trojan
+
+[server_remote]
+# 节点远程订阅，自行添加
+https://j.srl/link/OSK1oMJAsxBmphot?sub=1#emoji=2&udp=1, tag=几鸡, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/jj.png
+https://sub.ssr.ac/link/DBERo5fsJpXaeOJO?mu=1#emoji=2&udp=1, tag=魅影极速, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/MAYING.png
+https://v4.re0x.cyou/link/QP6Zwji9RS1lFsIW?list=quantumultx#emoji=2&udp=1, tag=Re0x, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Re0x.png
+https://sub.rss-node.com/link/s7n6PhlyHFq4XYuh?mu=1#udp=1&emoji=2, tag=🐬海豚湾, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Hitunw.png
+
 [policy]
 # 其中 📱系统更新 为屏蔽iOS系统更新的策略组，如有需要屏蔽，请在面板自行切换至REJECT； 💿国内媒体（包括A站、B站、爱奇艺等）；📀国外媒体（包括HULU、HBO等）；🌍国外网站 指定访问境外网站时的策略或节点；💿国内媒体 控制访问大陆网站时的策略；🕹黑白机 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
 static=🕹黑白机, 🌍国外网站, direct, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet2/Others.png
@@ -67,20 +81,6 @@ available=🇸🇬低倍速新加坡节点, server-tag-regex=(1X.*SG)|(2X.*SG)|(
 available=🚈低倍速节点, server-tag-regex=(1X.*N)|(:1)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x1.0.png
 available=🚄高倍速节点, server-tag-regex=(2X)|(:3)|(:2)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x2.0.png
 
-[server_local]
-# 本地服务器部分
-# 自行添加即可
-shadowsocks=216.127.168.145:20716, method=rc4-md5, password=cAj5Viu2, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=true, tag=SSR
-shadowsocks=172.245.79.4:14545, method=chacha20-ietf, password=liu.1995, fast-open=false, udp-relay=true, tag=SS
-trojan=tap.bwgrlp.fun:443, password=ae662f4f, over-tls=true, tls-verification=true, fast-open=false, udp-relay=true, tag=trojan
-
-[server_remote]
-# 节点远程订阅，自行添加
-https://j.srl/link/OSK1oMJAsxBmphot?sub=1#emoji=2&udp=1, tag=几鸡, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/jj.png
-https://sub.ssr.ac/link/DBERo5fsJpXaeOJO?mu=1#emoji=2&udp=1, tag=魅影极速, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/MAYING.png
-https://v4.re0x.cyou/link/QP6Zwji9RS1lFsIW?list=quantumultx#emoji=2&udp=1, tag=Re0x, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Re0x.png
-https://sub.rss-node.com/link/s7n6PhlyHFq4XYuh?mu=1#udp=1&emoji=2, tag=🐬海豚湾, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Hitunw.png
-
 [filter_remote]
 # 分流规则远程订阅
 https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/Filter/Airport.list, tag=Airport（机场服务）, force-policy=✈️机场站点, enabled=true
@@ -106,7 +106,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/mast
 [filter_local]
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
 # 绕过企业证书过期
-host, ocsp.apple.com, reject
+host, ocsp.apple.com, 📱系统更新
 # 屏蔽系统更新
 host, ns.itunes.apple.com, 📱系统更新
 host, appldnld.apple.com, 📱系统更新
