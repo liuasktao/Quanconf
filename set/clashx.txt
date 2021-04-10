@@ -198,6 +198,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - PROXY
+      - 🌍国外网站
       - 🚄高倍速节点
       - ss
       - ssr
