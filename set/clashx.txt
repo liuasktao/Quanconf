@@ -32,15 +32,15 @@ proxies:
     password: ae662f4f
     udp: true
 proxy-providers:
-  JJ:
-    type: http
-    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fj.srl%2Flink%2FOSK1oMJAsxBmphot%3Fsub%3D1&emoji=true&list=true&new_name=true
-    path: ./RL/JJ.yaml
-    interval: 3600
-    health-check:
-      enable: false
-      interval: 3600
-      url: http://www.gstatic.com/generate_204
+#  JJ:
+#    type: http
+#    url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fj.srl%2Flink%2FOSK1oMJAsxBmphot%3Fsub%3D1&emoji=true&list=true&new_name=true
+#    path: ./RL/JJ.yaml
+#    interval: 3600
+#    health-check:
+#      enable: false
+#      interval: 3600
+#      url: http://www.gstatic.com/generate_204
   ALL:
     type: http
     url: https://sub.bwgrlp.fun/api/sub?target=clash&url=https%3A%2F%2Fsub.ssr.ac%2Flink%2FDBERo5fsJpXaeOJO%3Fmu%3D1%7Chttps%3A%2F%2Fv4.re0x.cyou%2Flink%2FQP6Zwji9RS1lFsIW%3Fsub%3D3%7Chttps%3A%2F%2Fsub.rss-node.com%2Flink%2Fs7n6PhlyHFq4XYuh%3Fmu%3D1&expand=true&new_name=true&exclude=%E5%89%A9%E4%BD%99%7C%E8%BF%87%E6%9C%9F%7C%E5%AE%98%E7%BD%91%7C%E5%BA%94%E6%80%A5&emoji=true&list=true&udp=true
@@ -87,10 +87,10 @@ proxy-providers:
       interval: 3600
       url: http://www.gstatic.com/generate_204
 proxy-groups:
-  - name: JJ
-    type: select
-    use:
-      - JJ
+#  - name: JJ
+#    type: select
+#    use:
+#      - JJ
   - name: PROXY
     type: select
     proxies:
@@ -109,7 +109,7 @@ proxy-groups:
     proxies:
       - 🚈低倍速节点
       - 🚄高倍速节点
-      - JJ
+#      - JJ
       - PROXY
       - DIRECT
   - name: 🇨🇳国内网站
