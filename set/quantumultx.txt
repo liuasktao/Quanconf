@@ -52,7 +52,7 @@ trojan=tap.bwgrlp.fun:443, password=ae662f4f, over-tls=true, tls-verification=tr
 https://sub.ssr.ac/link/DBERo5fsJpXaeOJO?mu=1#emoji=2&udp=1, tag=魅影极速, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/MAYING.png
 https://v4.re0x.cyou/link/QP6Zwji9RS1lFsIW?list=quantumultx#emoji=2&udp=1, tag=Re0x, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Re0x.png
 https://sub.rss-node.com/link/s7n6PhlyHFq4XYuh?mu=1#udp=1&emoji=2, tag=🐬海豚湾, update-interval=86400, opt-parser=true, enabled=true, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Hitunw.png
-https://api.skimeow.com/api/v1/client/subscribe?token=5e5bf28dbd024b56f453e644f638572e, tag=溜冰小猫, update-interval=86400, opt-parser=true, enabled=false, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Skicat.png
+https://api.skimeow.com/api/v1/client/subscribe?token=5e5bf28dbd024b56f453e644f638572e#emoji=2&udp=1, tag=溜冰小猫, update-interval=86400, opt-parser=true, enabled=false, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Skicat.png
 
 [policy]
 # 其中 📱系统更新 为屏蔽iOS系统更新的策略组，如有需要屏蔽，请在面板自行切换至REJECT； 💿国内媒体（包括A站、B站、爱奇艺等）；📀国外媒体（包括HULU、HBO等）；🌍国外网站 指定访问境外网站时的策略或节点；💿国内媒体 控制访问大陆网站时的策略；🕹黑白机 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
@@ -77,10 +77,10 @@ static=⭕️白名单, 🌍国外网站, direct, img-url=https://ghproxy.com/ht
 static=💢黑名单, 🇨🇳国内网站, direct, proxy, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Direct.png
 static=✈️机场站点, direct, proxy, 🌍国外网站, 🚄高倍速节点, SS, SSR, trojan, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/Airport.png
 # 自动选择策略组
-available=🇹🇼台湾节点, server-tag-regex=(2X.*TW)|台湾|(AS1.*TW), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/TW.png
-available=🇸🇬低倍速新加坡节点, server-tag-regex=(1X.*SG)|(2X.*SG)|(新加坡.*1.), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/SG.png
-available=🚈低倍速节点, server-tag-regex=(1X.*N)|(:1)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x1.0.png
-available=🚄高倍速节点, server-tag-regex=(2X)|(:3)|(:2)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x2.0.png
+available=🇹🇼台湾节点, resource-tag-regex=魅影|Re0x|海豚, server-tag-regex=(2X.*TW)|台湾|(AS1.*TW), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/TW.png
+available=🇸🇬低倍速新加坡节点, resource-tag-regex=魅影|Re0x|海豚, server-tag-regex=(1X.*SG)|(2X.*SG)|(新加坡.*1.), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/SG.png
+available=🚈低倍速节点, resource-tag-regex=魅影|Re0x|海豚, server-tag-regex=(1X.*N)|(:1)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x1.0.png
+available=🚄高倍速节点, resource-tag-regex=魅影|Re0x|海豚, server-tag-regex=(2X)|(:3)|(:2)|(AS2), check-interval=1800, img-url=https://ghproxy.com/https://raw.githubusercontent.com/liuasktao/Quanpngsurl/master/Quan/IconSet1/x2.0.png
 
 [filter_remote]
 # 分流规则远程订阅
